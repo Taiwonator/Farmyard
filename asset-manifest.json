@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Farmyard/static/css/main.a330ab9a.chunk.css",
+    "main.js": "/Farmyard/static/js/main.06238e4d.chunk.js",
+    "main.js.map": "/Farmyard/static/js/main.06238e4d.chunk.js.map",
+    "runtime-main.js": "/Farmyard/static/js/runtime-main.180d9772.js",
+    "runtime-main.js.map": "/Farmyard/static/js/runtime-main.180d9772.js.map",
+    "static/js/2.17c9cb60.chunk.js": "/Farmyard/static/js/2.17c9cb60.chunk.js",
+    "static/js/2.17c9cb60.chunk.js.map": "/Farmyard/static/js/2.17c9cb60.chunk.js.map",
+    "static/js/3.913dbc7e.chunk.js": "/Farmyard/static/js/3.913dbc7e.chunk.js",
+    "static/js/3.913dbc7e.chunk.js.map": "/Farmyard/static/js/3.913dbc7e.chunk.js.map",
+    "index.html": "/Farmyard/index.html",
+    "static/css/main.a330ab9a.chunk.css.map": "/Farmyard/static/css/main.a330ab9a.chunk.css.map",
+    "static/js/2.17c9cb60.chunk.js.LICENSE.txt": "/Farmyard/static/js/2.17c9cb60.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.180d9772.js",
+    "static/js/2.17c9cb60.chunk.js",
+    "static/css/main.a330ab9a.chunk.css",
+    "static/js/main.06238e4d.chunk.js"
+  ]
+}
