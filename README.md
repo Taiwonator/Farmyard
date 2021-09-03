@@ -1,6 +1,8 @@
 # The Farmyard 
 
 ## Setup (not tested)
+![Cow](src/assets/cow.png "Title")
+
 ### 1. Cloning the project
 ### 2. Setup project
 Once cloned, open the project and run `yarn install`
