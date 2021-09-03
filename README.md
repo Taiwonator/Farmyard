@@ -18,8 +18,8 @@ Storybook: run `yarn storybook` and open on [http://localhost:6006](http://local
 - storybook
 
 ## Project timeline
-[x] UX Design 
-[x] React 
-[x] Storybook 
-[x] Github workflows
-[x] Github pages
+- [x] UX Design 
+- [x] React 
+- [x] Storybook 
+- [x] Github workflows
+- [x] Github pages
