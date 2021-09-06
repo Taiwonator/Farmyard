@@ -1,3 +1,14 @@
+@font-face {
+  font-family: VAG Rundschrift D;
+  src: 'https://use.typekit.net/xha5plg.css';
+}
+
+:root {
+  --brown: #442418;
+  --green: #B8D600;
+  --pink: #FF8E9E;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +16,13 @@
 }
 
 body {
-  
+  font-size: 14px;
+  font-family: VAG Rundschrift D;
+  color: var(--brown);
 }
+
+button {
+  outline: none;
+  background: none;
+}
+
