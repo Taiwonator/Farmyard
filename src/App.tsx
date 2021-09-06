@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from './stories/button/Button';
+import LandingPage from './pages/LandingPage';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Button primary label='hello'/>
+      <LandingPage />
     </div>
   );
 }
