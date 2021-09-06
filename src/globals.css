@@ -21,8 +21,18 @@ body {
   color: var(--brown);
 }
 
+<<<<<<< HEAD
+=======
+h1, h2, h3, p, a, input {
+  
+}
+
+>>>>>>> c11ced9a2ec750fc773c5b67ab5d91ea94c73b38
 button {
   outline: none;
   background: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c11ced9a2ec750fc773c5b67ab5d91ea94c73b38
