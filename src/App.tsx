@@ -1,11 +1,12 @@
 import React from 'react';
 import LandingPage from './pages/LandingPage';
+import PageWrapper from './wrappers/PageWrapper';
 
 const App: React.FC = () => {
   return (
-    <div className='app'>
+    <PageWrapper>
       <LandingPage />
-    </div>
+    </PageWrapper>
   );
 }
 

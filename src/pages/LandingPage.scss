@@ -1,0 +1,58 @@
+@use '../styles/variables' as v;
+
+.landing-page {
+    min-height: 100vh;
+    text-align: center;
+
+    &__left {
+        order: 1;
+    }
+
+    &__right {
+        order: 0;
+    }
+
+    &__header-row {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+
+        &--top {
+            font-size: 2em;
+
+            img {
+                max-width: 100px;
+            }
+            
+        }
+
+        &--bottom {
+            font-size: 3em;
+        }
+    }
+
+    &__header {
+        text-transform: uppercase;
+
+        span {
+            color: v.$secondary-color;
+        }
+
+    }
+
+    &__text {
+        font-size: 1.5em;
+    }
+
+    &__cow {
+        max-width: 200px;
+    }
+
+    &__grass {
+
+    }
+
+}
+
+

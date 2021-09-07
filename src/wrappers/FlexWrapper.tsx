@@ -1,22 +1,22 @@
 import React from 'react'
-import './FlexContainer.css'
+import './FlexWrapper.scss'
 
-type FlexContainerProps = {
+interface FlexWrapperProps {
     children: React.ReactNode, 
     name: string, 
     Tag?: keyof JSX.IntrinsicElements
 }
 
-const FlexContainer: React.FC<FlexContainerProps> = props => {
+const FlexWrapper: React.FC<FlexWrapperProps> = props => {
     const { children, name, Tag } = props
 
     let TagName = Tag ? Tag : 'div'
  
     return (
-        <TagName className={`flex-container flex-container--center ${name}`}>
+        <TagName className={`flex-wrapper flex-wrapper--center ${name}`}>
             {children}
         </TagName>
     )
 }
 
-export default FlexContainer
+export default FlexWrapper
