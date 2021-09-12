@@ -43,30 +43,5 @@ const LandingPage: React.FC = _ => {
     )
 }
 
-interface LandingPageProps {
-    style: LandingPageStyle,
-    header: string | React.ReactNode, 
-    subheader: string | React.ReactNode, 
-    text: string, 
-    buttons?: LandingPageButtonProps[], 
-
-}
-
-type LandingPageStyle = {
-    style: 'LEFT' | 'RIGHT',
-    image: string,
-    backgroundColor: string,
-} | {
-    style: 'LEFT' | 'CENTER' | 'RIGHT',
-    backgroundColor: string, 
-    backgroundImage?: string,
-}
-
-interface LandingPageButtonProps {
-    text: string, 
-    color: string, 
-    action: void
-}
-
 export default LandingPage
 
