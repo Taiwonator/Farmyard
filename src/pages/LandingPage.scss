@@ -1,15 +1,28 @@
 @use '../styles/variables' as v;
+@use '../styles/base' as b;
 
 .landing-page {
     min-height: 100vh;
     text-align: center;
 
+    @include b.forTablet() {
+        text-align: left;
+    }
+
     &__left {
         order: 1;
+
+        @include b.forTablet() {
+            order: 0;
+        }
     }
 
     &__right {
         order: 0;
+
+        @include b.forTablet() {
+            order: 1;
+        }
     }
 
     &__header-row {
